@@ -1,0 +1,173 @@
+body {
+  background-color: #F5F5DC;
+  font-family: 'Libre Baskerville', serif;
+  font-size: 15px;
+  line-height: normal;
+}
+
+h1 {
+    color: plum;
+    font-weight: 200px;
+    letter-spacing: 6px;
+    font-size: 60px;
+    line-height: normal;
+    margin-top: 6px;
+}
+
+h2 {
+  color: skyblue;
+  font-weight: 200px;
+  letter-spacing: 0px;
+  font-size: 27px;
+  line-height: normal;
+  text-align: center;
+  margin-top: 3px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: rgb(38, 53, 71);
+  font-size: 18px;
+}
+
+h4 {
+  color: rgb(38, 53, 71);
+  font-size: 14px;
+  margin-top: 1px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+strong{
+  font-weight: bold;
+  color: plum;
+  font-size: 20px;
+}
+
+.flex_box {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.text{
+  margin-left: 20px;
+}
+.flex_box2 {
+  display: flex;
+  padding-bottom: 20px;
+}
+
+.flex_box3 {
+  display: flex;  
+}
+
+
+.img-circle{
+  border-radius: 250px;
+  width: 150px;
+  justify-content: center;
+}
+
+.anglais{
+  border-radius: 150px;
+  width: 100px;
+  display: flex;
+  justify-content: left;
+}
+
+.espagnol{
+  border-radius: 150px;
+  width: 100px;
+  display: flex;
+  justify-content: left;
+}
+
+.chinois{
+  border-radius: 150px;
+  width: 100px;
+  display: flex;
+  justify-content: left;
+}
+
+.container {
+  width: 750px;
+  margin: 100px auto;
+}
+
+.header {
+    background-color: mistyrose;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 20px auto;
+    text-align: center;
+    width: 750px;
+
+}
+.card-white {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 20px auto;
+    text-align: none;
+    width: 770px;
+
+}
+
+.footer {
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    margin: 20px auto;
+    text-align: center;
+    width: 750px;
+}
+
+#skills p {
+  margin-bottom: 10px;
+  margin-top: 28px;
+  text-align: left;
+}
+#skills li{
+	text-align: left;
+}
+
+#experiences p {
+  margin-bottom: 10px;
+  margin-top: 28px;
+  text-align: left;
+}
+#experiences li{
+	text-align: left;
+}
+
+#association li{
+	text-align: left;
+}
+
+#Passions li{
+	text-align: left;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+.taille_icon{
+	font-size: 50px;
+	color: #F0F;
+}
+
+@media (max-device-width:500px ){
+  .container{
+    width: initial;
+  }
+  .text {
+    font-size: 25px;
+  }
+  a {
+    padding: 0 20px;
+  }
+}
